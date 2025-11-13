@@ -6,3 +6,5 @@ for n in numbers
     total += n
 
 print("Sum:", total)
+print("Count:", len(numbers))
+print("Note: This file intentionally contains a syntax error.")
