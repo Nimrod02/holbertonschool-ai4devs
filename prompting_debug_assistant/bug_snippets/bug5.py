@@ -7,4 +7,5 @@ average = total / len(grades)
 print("Average:", average)
 print("Note: This file intentionally contains a type error.")
 print("End of bug5.py")
+print("-----")
 # End of file
