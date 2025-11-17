@@ -1,10 +1,19 @@
-# Intended: Sum all numbers in a list
-numbers = [1, 2, 3, 4, 5]
+import sys
 
-total = 0
-for n in numbers
-    total += n
+def parse_args(args)   # <- SYNTAX: colon manquant
+    options = {
+        "verbose": False,
+        "limit": 10,
+    }
 
-print("Sum:", total)
-print("Count:", len(numbers))
-print("Note: This file intentionally contains a syntax error.")
+    for i in range(len(args):
+        if args[i] == "--verbose":
+            options["verbose"] = True
+        elif args[i] == "--limit":
+            options["limit"] = int(args[i+1])  # suppose un argument suivant
+
+    return options
+
+if __name__ == "__main__":
+    cfg = parse_args(sys.argv[1:])
+    print("Config:", cfg)
