@@ -1,0 +1,6 @@
+{
+        "label": "AI Code Review",
+        "type": "shell",
+        "command": "ai-code-review",
+        "args": ["${file}"]
+      }
