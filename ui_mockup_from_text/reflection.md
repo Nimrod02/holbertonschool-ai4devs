@@ -62,6 +62,4 @@ enough context to iterate responsibly without re-litigating documented
 conclusions. These evaluations emphasize atomic critique: labeling typography
 concerns, spacing anomalies, interaction uncertainties, and data-visual
 semantics separately to avoid murky generalities. A disciplined approach ensures
-findings translate into actionable design tickets, prioritized experiment
-backlogs, or updated prompt templates that better steer next-generation mockups.
-Evaluation notes delve into how each mockup balances clarity, efficiency,
+findings translate into actionable design ticket
